@@ -175,12 +175,12 @@ ul li {
 }
 .navbar_container a {
     margin-left: 20px;
-    color: #0153d6;
+    color: #777;
     text-decoration: none;
     font-weight: 400px;
 }
-.navbar_container a :hover {
-    color: red;
+.navbar_container a:hover {
+    color: #404040;
 }
 
 /* end navbar */
