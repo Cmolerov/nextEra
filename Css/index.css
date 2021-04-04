@@ -201,8 +201,18 @@ section {
 
 /* header section */
 .section_highlight-header {
-    font-size: 15px;
+    font-size: 13px;
     color: #777;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+.section_highlight-header::before {
+    content: "";
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: #98ce6f;
+    margin-right: 8px;
 }
 
 .section_title-header {
