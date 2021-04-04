@@ -1,10 +1,13 @@
-html,body {
-  margin:0;
-  padding: 0 !important;
-  box-sizing: border-box;
-  display: flex;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap%27");
 
+html,
+body {
+    margin: 0;
+    padding: 0 !important;
+    box-sizing: border-box;
+    display: flex;
+    min-width: 100vw;
+}
 
 body {
     display: flex;
@@ -12,7 +15,7 @@ body {
     color: rgb(110, 110, 110);
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Heebo', sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 form {
@@ -29,7 +32,7 @@ h5,
 h6 {
     line-height: 110%;
     margin: 0;
-    font-family: 'Heebo', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
     color: #020312;
 }
@@ -64,7 +67,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    transition: .5s ease-out;
+    transition: 0.5s ease-out;
 }
 
 a p {
@@ -88,7 +91,6 @@ ul li {
     margin-bottom: 0;
 }
 
-
 /* button */
 
 .fa-icon {
@@ -105,7 +107,7 @@ ul li {
     color: #fff;
     margin-top: 22px;
     border: 2px solid transparent;
-    transition: .5s ease-out;
+    transition: 0.5s ease-out;
     display: inline-block;
 }
 
@@ -125,7 +127,7 @@ ul li {
     border-color: #415678;
     color: #fff;
     background: #415678;
-    transition: .5s ease-out;
+    transition: 0.5s ease-out;
 }
 
 .section {
@@ -161,3 +163,24 @@ ul li {
 .section-title .title-desc {
     margin-top: 15px;
 }
+
+/* navbar style */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 20px;
+    align-items: center;
+    align-content: center;
+}
+.navbar_container a {
+    margin-left: 20px;
+    color: #0153d6;
+    text-decoration: none;
+    font-weight: 400px;
+}
+.navbar_container a :hover {
+    color: red;
+}
+
+/* end navbar */
