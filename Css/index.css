@@ -1,0 +1,163 @@
+html,body {
+  margin:0;
+  padding: 0 !important;
+  box-sizing: border-box;
+  display: flex;
+}
+
+
+body {
+    display: flex;
+    background: #fff;
+    color: rgb(110, 110, 110);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Heebo', sans-serif;
+}
+
+form {
+    margin: auto;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 110%;
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    color: #020312;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+a {
+    color: #020312;
+}
+
+a:hover {
+    text-decoration: none;
+    transition: .5s ease-out;
+}
+
+a p {
+    color: #717e96;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+.row:last-child {
+    margin-bottom: 0;
+}
+
+
+/* button */
+
+.fa-icon {
+    color: #152136;
+    font-size: 18px;
+}
+
+.button {
+    background: #152136;
+    padding: 12px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 22px;
+    border: 2px solid transparent;
+    transition: .5s ease-out;
+    display: inline-block;
+}
+
+.button:hover {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.button.button-secondary {
+    background: transparent;
+    border: 2px solid #415678;
+    color: #222;
+    margin-top: 22px;
+}
+
+.button.button-secondary:hover {
+    border-color: #415678;
+    color: #fff;
+    background: #415678;
+    transition: .5s ease-out;
+}
+
+.section {
+    padding: 90px 0;
+}
+
+.section-bottom-only {
+    padding-bottom: 90px;
+}
+
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.section-title .title-top {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #415678;
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+
+.section-title h3 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.section-title.section-title-left {
+    text-align: left;
+}
+
+.section-title .title-desc {
+    margin-top: 15px;
+}
