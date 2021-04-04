@@ -132,7 +132,8 @@ ul li {
 }
 
 section {
-    padding-top: 90px;
+    margin-top: 35px;
+    padding-left: 165px;
     display: flex;
     justify-content: space-around;
     max-width: 100%;
@@ -198,6 +199,22 @@ section {
 
 /* end navbar */
 
-/* section */
+/* header section */
+.section_highlight-header {
+    font-size: 15px;
+    color: #777;
+}
 
-/* section end  */
+.section_title-header {
+    font-size: 80px;
+    line-height: 0.85;
+    font-weight: 800;
+    color: #404040;
+}
+
+.section_p-header {
+    font-size: 18px;
+    color: #777;
+}
+
+/* header section end  */
