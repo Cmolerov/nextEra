@@ -228,6 +228,7 @@ section {
     font-size: 18px;
     color: #777;
     font-weight: 300;
+    line-height: 1.4;
 }
 
 .section_header-svg {
@@ -240,4 +241,9 @@ svg {
 
 .about {
     margin-top: 100px;
+}
+
+.section_title-header-span {
+    color: #98ce6f;
+    text-shadow: rgba(5, 84, 1, 0.16) 0px 1px 4px;
 }
