@@ -175,6 +175,7 @@ section {
 
 .content-left {
     width: 500px;
+    padding-left: 30px;
 }
 .content-right {
     width: 600px;
@@ -236,3 +237,7 @@ svg {
     margin-bottom: 80px;
 }
 /* header section end  */
+
+.about {
+    margin-top: 100px;
+}
